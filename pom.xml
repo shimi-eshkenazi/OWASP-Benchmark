@@ -114,7 +114,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -128,7 +128,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -142,7 +142,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -210,7 +210,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -224,7 +224,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -238,7 +238,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -306,7 +306,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -320,7 +320,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -334,7 +334,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -448,7 +448,7 @@
 												</goals>
 											</pluginExecutionFilter>
 											<action>
-												<ignore />
+												<ignore/>
 											</action>
 										</pluginExecution>
 										<pluginExecution>
@@ -542,19 +542,19 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-collections4</artifactId>
-			<version>4.0</version>
+			<version>4.1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
-			<version>3.3.2.GA</version>
+			<version>3.4.0.GA</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>3.3.0.SP1</version>
+			<version>4.1.1.Final</version>
 		</dependency>
 
 		<dependency>
@@ -578,7 +578,7 @@
 		<dependency>
 			<groupId>net.sourceforge.jwebunit</groupId>
 			<artifactId>jwebunit-htmlunit-plugin</artifactId>
-			<version>3.2</version>
+			<version>3.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.slf4j</groupId>
@@ -590,7 +590,7 @@
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
-			<version>1.1.2</version>
+			<version>1.2.0</version>
 		</dependency>
 
 		<dependency>
@@ -668,7 +668,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>4.1.8.RELEASE</version>
 		</dependency>
 		<!-- Begin of new dependencies -->
 		<dependency>
@@ -679,7 +679,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.1.5.RELEASE</version>
+			<version>4.1.8.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -705,13 +705,13 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.6.2</version>
+			<version>2.8.6</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.6.2</version>
+			<version>2.8.6</version>
 		</dependency>
 
 		<dependency>
@@ -749,7 +749,7 @@
 		<dependency>
 			<groupId>org.owasp.esapi</groupId>
 			<artifactId>esapi</artifactId>
-			<version>2.1.0</version>
+			<version>2.1.0.1</version>
 		</dependency>
 
 		<dependency>
@@ -761,13 +761,13 @@
 		<dependency>
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-core</artifactId>
-			<version>2.3.20</version>
+			<version>2.3.35</version>
 		</dependency>
 
 		<dependency>
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
-			<version>3.1</version>
+			<version>3.2.2</version>
 		</dependency>
 
 		<dependency>
